@@ -1,13 +1,8 @@
-package com.example.currencyconversion;
+package com.example.currencyconversion.modelclasses;
 
 import com.google.gson.annotations.SerializedName;
 
-public class CurrencyData {
-
-    private Data data;
-}
-
-class Data {
+public class Data {
     @SerializedName("AUD")
     private double australianDollar;
     @SerializedName("BGN")
@@ -56,7 +51,7 @@ class Data {
     private double newZealandDollar;
     @SerializedName("PHP")
     private double philippinePeso;
-    @SerializedName("PHP")
+    @SerializedName("PLN")
     private double polishZloty;
     @SerializedName("RON")
     private double romanianLeu;
@@ -68,6 +63,8 @@ class Data {
     private double singaporeDollar;
     @SerializedName("THB")
     private double thaiBaht;
+    @SerializedName("TRY")
+    private double turkishLira;
     @SerializedName("USD")
     private double unitedStatesDollar;
     @SerializedName("ZAR")

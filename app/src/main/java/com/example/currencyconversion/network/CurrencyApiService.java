@@ -1,9 +1,6 @@
 package com.example.currencyconversion.network;
 
-import com.example.currencyconversion.CurrencyData;
-
-import java.util.Date;
-import java.util.List;
+import com.example.currencyconversion.modelclasses.CurrencyData;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
